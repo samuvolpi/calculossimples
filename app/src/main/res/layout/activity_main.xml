@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="206dp"
         android:layout_height="173dp"
-        android:text="Calculo de Soma"
+        android:text="Calculo de IMC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.614"
@@ -24,7 +24,7 @@
         android:id="@+id/valor1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Valor1"
+        android:text="Altura"
         app:layout_constraintBottom_toTopOf="@+id/valor2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.634"
@@ -34,25 +34,17 @@
         android:id="@+id/valor2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Valor2"
+        android:text="Peso"
         tools:layout_editor_absoluteX="14dp"
         tools:layout_editor_absoluteY="141dp" />
 
     <Button
-        android:id="@+id/valor3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Valor3"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="222dp" />
-
-    <Button
-        android:id="@+id/somar"
+        android:id="@+id/calculo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calcular"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="303dp" />
+        tools:layout_editor_absoluteY="239dp" />
 
     <TextView
         android:id="@+id/valor1.1"
@@ -75,47 +67,11 @@
         tools:layout_editor_absoluteY="158dp" />
 
     <TextView
-        android:id="@+id/valor3.1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Valor3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
-        app:layout_constraintStart_toEndOf="@+id/valor3"
-        tools:layout_editor_absoluteY="237dp" />
-
-    <TextView
         android:id="@+id/resultado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Resultado"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toEndOf="@+id/somar"
-        tools:layout_editor_absoluteY="310dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="28dp"
-        android:layout_height="27dp"
-        app:srcCompat="@drawable/simbolodemais"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="119dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="30dp"
-        android:layout_height="28dp"
-        app:srcCompat="@drawable/simbolodemais"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="194dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="39dp"
+        android:layout_width="41dp"
         android:layout_height="39dp"
-        app:srcCompat="@drawable/simbolodeigual"
+        android:text="IMC"
         tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="270dp" />
+        tools:layout_editor_absoluteY="248dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
